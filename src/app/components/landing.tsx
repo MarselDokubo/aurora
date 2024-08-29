@@ -10,12 +10,12 @@ export default function Landing() {
         <Image
           src="/hero/hero_3_bg_removed.png"
           alt="Hero Image"
-          className="h-full w-[40%] absolute top-0 object-cover"
+          className="h-full md:w-[40%] absolute top-0 object-cover"
           width={900}
           height={1350}
         />
       </div>
-      <div className="collection-detail bg-white w-64 h-max p-6 absolute top-0 bottom-0 left-24 my-auto">
+      <div className="collection-detail bg-white w-52 md:w-64 h-max p-6 absolute md:top-0 md:bottom-0 bottom-24 left-24 my-auto">
         <div className="flex justify-between">
           <div className="">
             <h3 className="text-xl font-bold lowercase">Adonis</h3>
@@ -40,7 +40,7 @@ export default function Landing() {
           </div>
         </div>
       </div>
-      <div className="collection-detail bg-black text-white w-72 h-40 p-6 absolute bottom-10 right-24 ">
+      <div className="collection-detail hidden md:block bg-black text-white w-72 h-40 p-6 absolute bottom-10 right-24 ">
         <div className="flex items-center h-full">
           <div className="h-max">
             <p className="font-light">Swipe it</p>
@@ -48,7 +48,7 @@ export default function Landing() {
           </div>
         </div>
       </div>
-      <div className="flex gap-4 p-2 border rounded-xl text-white bg-white max-w-max h-max uppercase absolute top-0 bottom-0 right-24 my-auto">
+      <div className="flex gap-4 p-2 border rounded-xl text-white bg-white max-w-max h-max uppercase absolute bottom-0 left-1/2 -translate-x-1/2 md:left-0 md:-translate-x-[0px] md:top-0 md:bottom-0 md:right-24 my-auto">
         <span className="inline-flex items-center font-bold py-2 px-6 bg-black rounded-xl">
           Him
         </span>
